@@ -1,0 +1,30 @@
+Inversion of control - 
+  libraries: you have control. you call the library when you want to use it
+  frameworks: framework has the control and calls your code when needed
+    hollywood principle: don't call us, we'll call you
+
+Declaritive vs Imperative Approach
+  declaritive: You declare what you want to see, then React handles updating the DOM in a consistant way
+      React is decalritive
+  Imperative: You manipulate the DOM directly to create, insert, remove nodes and spell out every step yourself
+Componet Based Approach
+  encapsulates the UI into units called Componets
+Plays well with other technologies
+  makes no assumptions about the rest of your tech stack - focuses on the UI nad lets you decide the rest of the application architecture
+
+JSX
+------
+App.js runs JSX
+
+JSX is like a preprocessor for JS, similar to Sass for CSS
+you can write your code one wa and then it gets complied to regular JS on the way to the browser
+JSX syntax is very similar to HTML with a few differences:
+  className instead of class
+  htmlFor instead of for
+  {} can be used to embed JS expressions
+  when an element has no content you can write it as a self closing tag in JSX:
+    <i className="fa fa-phone"></i>
+            becomes
+    <i className="fa fa-phone" />
+mays HTML attributes such as ID and href are the same
+
