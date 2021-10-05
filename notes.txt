@@ -26,5 +26,46 @@ JSX syntax is very similar to HTML with a few differences:
     <i className="fa fa-phone"></i>
             becomes
     <i className="fa fa-phone" />
-mays HTML attributes such as ID and href are the same
+many HTML attributes such as ID and href are the same
 
+JS Import and Export
+----------------------
+import and export keywords allow files to share data with eachother
+
+the shared data can be objects, primitives, and functions(including classes)
+
+two kinds of export:
+  default - only one per file
+    a module is a JS file that contains an export
+    two ways to write:
+      export default App;
+      export { App }
+  named - many in a file
+
+
+React Componets
+------------------
+  - reusable chuncks of code like functions for the specific purpose of rendering parts of the UI
+  - units of UI - are "rendered" not called (ie: function call) to the view
+  - brackets, Capitilazation are two dead giveaways of a react component
+  - Easily compose the UI in a modular way
+  - similar to bootstrap but written in JS - can make custom or use 3rd party
+
+  Class Component
+    definition:
+    all class components are children of React's Component
+    names muct be capitalized, just like regular classes
+    always a simple return statement nested inside render() (takes no arguments)
+      multi-line return statements need to be wrapped in parenthesis
+      return value can only be a single element (can contain nested elements), typically using JSX
+
+    rendering:
+    render using a self closing HTML tag wit the component's name (capitalized)
+
+
+
+
+    class myComponent extends Component {
+
+    }
+  Functional Component
