@@ -55,13 +55,20 @@ React Componets
     definition:
     all class components are children of React's Component
     names muct be capitalized, just like regular classes
-    always a simple return statement nested inside render() (takes no arguments)
-      multi-line return statements need to be wrapped in parenthesis
+    constructors may or may not be required
+    always a render() method with   a simple return statement inside
       return value can only be a single element (can contain nested elements), typically using JSX
+      multi-line return statements need to be wrapped in parenthesis
 
     rendering:
     render using a self closing HTML tag wit the component's name (capitalized)
 
+    Local State:
+    data
+    cannot be seen from other parts of the app 
+    to pass data from componet to component pass as attribute
+
+    Lifiting state up:
 
 
 
@@ -69,3 +76,14 @@ React Componets
 
     }
   Functional Component
+
+
+
+
+
+  Developer Tools
+  profiler tab - auditing speed of a react application
+  componets tabe:
+    displays all the components
+    where data is being held
+    
