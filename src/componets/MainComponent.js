@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Directory from './DirectoryComponet';
 import { CAMPSITES } from './shared/campsites';
-import CampsiteInfo from './CampsiteInfoComponent';
 import Home from './HomeComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Header from './HeaderComponent';
+import Contact from './ContactComponet';
 import Footer from './FooterComponent';
 
 
@@ -33,6 +33,7 @@ class Main extends Component {
         <Switch>
           <Route path='/home' component={HomePage} />
           <Route exact path='/directory' render={() => <Directory campsites={this.state.campsites} />} />
+          <Route exact path='/contactus' component={Contact} />
           <Redirect to='/home' />
         </Switch>
         <Footer />
