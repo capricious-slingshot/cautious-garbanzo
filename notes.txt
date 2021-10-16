@@ -86,4 +86,12 @@ React Componets
   componets tabe:
     displays all the components
     where data is being held
+
+Destucturing
+-------------
+shortcut for accessing properties inside objects and assembling them 
+as values if new variables
+
+
+
     

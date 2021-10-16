@@ -17,7 +17,6 @@ class CampsiteInfo extends Component{
   }
 
   renderComments(comments) {
-
     if (comments){
       return(
         <div className="col-md-5 m-1">
